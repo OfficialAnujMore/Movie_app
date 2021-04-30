@@ -6,7 +6,7 @@
         <th>Director</th>
         <th>Genere</th>
         <th>Rating</th>
-        <th>Release Date</th>
+        <th>Release Datess</th>
       </thead>
       <tbody>
    
