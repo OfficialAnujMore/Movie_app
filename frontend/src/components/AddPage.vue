@@ -9,7 +9,7 @@
           minlength="2"
           maxlength="100"
           name="movieName"
-          class="form-control  field"
+          class="form-control field"
           id="movieName"
           aria-describedby="emailHelp"
           placeholder="Movie Name"
@@ -79,7 +79,6 @@
 </template>
 
 <style scoped src= "../assets/css/addPage.css">
-
 </style>
 <script>
 export default {
@@ -130,7 +129,6 @@ export default {
 
         this.movies.push(await response.json());
 
-        console.log("hello");
         alert("Movie Details has been added succesfully!!");
         document.getElementById("movieName").value = "";
         document.getElementById("directorName").value = "";

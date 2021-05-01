@@ -27,14 +27,16 @@
               </div>
 
               <div class="row d-flex justify-content-start">
-                <h5 class="card-title d-flex justify-content-start">
+                <h5 class="card-title d-flex justify-content-start" 
+                id="director_name"
+                >
                   Directed by - {{ movie.director }}
                 </h5>
               </div>
 
               <div class="row d-flex justify-content-start">
                 <!-- <h4 class=""></h4> -->
-                <h5 class="card-title">Genere - {{ movie.genere }}</h5>
+                <h5 class="card-title" id="genere">Genere - {{ movie.genere }}</h5>
               </div>
 
               <!-- <h4 class="card-title">Rating {{ movie.rating }} Outof 5</h4> -->
@@ -78,6 +80,8 @@ export default {
   async created() {
     var response = await fetch("http://127.0.0.1:8000/api/movies/");
     this.movies = await response.json();
+
+    
   },
 };
 </script>
