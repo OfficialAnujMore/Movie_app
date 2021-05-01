@@ -2,7 +2,7 @@
 
 ### Step 1] Clone the repository 
 
-### Step 2] Open a terminal in the current folder and change the directory name to backend
+### Step 2] Open a terminal in the root directory *vphrase* and change the directory name to backend
 ```
 cd backend
 ```
