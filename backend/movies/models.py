@@ -8,7 +8,7 @@ class Movies(models.Model):
     director = models.CharField(max_length=1000, default='NA')
     genere = models.CharField(max_length=1000, default='NA')
     rating = models.IntegerField(default=0)
-    release_date = models.DateTimeField(default=date.today)
+    release_date = models.CharField(default='NA', max_length=100)
 
 
 # id name director genere rating release date

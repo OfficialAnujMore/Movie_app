@@ -19,7 +19,7 @@
 
 <script>
 import Navigation from "./components/Navigation.vue";
-// import Home from "./components/HomePage.vue";
+
 export default {
   name: "App",
 

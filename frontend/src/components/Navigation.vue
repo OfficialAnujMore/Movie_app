@@ -1,7 +1,7 @@
 <template>
   <div id="navigation">
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="#">Movie App</a>
+      <a class="navbar-brand" href="/">Movie App</a>
       <button
         class="navbar-toggler"
         type="button"
@@ -20,24 +20,22 @@
       >
         <ul class="navbar-nav mr-auto">
           <li class="nav-item active">
-           
-            <router-link to="/">Home</router-link>
-          </li>
-          <li class="nav-item active">
-            <!-- <a class="nav-link" href="#"
-              >About <span class="sr-only">(current)</span></a
-            > -->
-             <router-link to="/addPage">Add Page</router-link>
-          </li>
-          <li class="nav-item active">
-            <a class="nav-link" href="#"
-              >Add Content <span class="sr-only">(current)</span></a
+            <a
+              class="navbar-brand"
+              href="/addPage.vue"
+              
+            >
+              <router-link to="addPage">Add Movie</router-link></a
             >
           </li>
         </ul>
       </div>
     </nav>
   </div>
+
+  <!-- <li class="nav-item active">
+            <a class="navbar-brand" href="/">Home</a>
+          </li> -->
 </template>
 
 <script>
