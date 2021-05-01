@@ -7,7 +7,7 @@
         v-for="movie in movies"
         v-bind:key="movie.id"
       >
-        <div class="row no-gutters ">
+        <div class="row no-gutters">
           <div class="col-md-4">
             <img
               src="https://lifewithmorecowbell.files.wordpress.com/2016/12/theatre-sign.jpg"
@@ -27,36 +27,30 @@
               </div>
 
               <div class="row d-flex justify-content-start">
-                <h5 class="card-title d-flex justify-content-start" 
-                id="director_name"
+                <h5
+                  class="card-title d-flex justify-content-start"
+                  id="director_name"
                 >
                   Directed by - {{ movie.director }}
                 </h5>
               </div>
 
               <div class="row d-flex justify-content-start">
-                <!-- <h4 class=""></h4> -->
-                <h5 class="card-title" id="genere">Genere - {{ movie.genere }}</h5>
+                <h5 class="card-title" id="genere">
+                  Genere - {{ movie.genere }}
+                </h5>
               </div>
 
-              <!-- <h4 class="card-title">Rating {{ movie.rating }} Outof 5</h4> -->
-
               <div class="row d-flex justify-content-start">
-                <!-- <h4 class=""></h4> -->
                 <span
                   class="star fa fa-star fa-lg"
                   v-for="star in movie.rating"
                   v-bind:key="star.id"
                 >
                 </span>
-                <!-- <h5 class="card-title"> out of 5</h5> 
-                
-                src="https://thumbs.dreamstime.com/b/cinema-movie-reel-clapper-board-mm-film-background-unrolled-filmstrip-vertical-frame-56381025.jpg"
-                -->
               </div>
 
               <div class="row d-flex justify-content-end" id="release_date">
-                <!-- <h4 class=""></h4> -->
                 <h10 class="card-title">{{ movie.release_date }}</h10>
               </div>
             </div>
@@ -77,11 +71,10 @@ export default {
       movies: [],
     };
   },
+
   async created() {
     var response = await fetch("http://127.0.0.1:8000/api/movies/");
     this.movies = await response.json();
-
-    
   },
 };
 </script>

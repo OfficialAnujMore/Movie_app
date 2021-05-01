@@ -11,12 +11,14 @@ export default new Router({
         {
             path:'/',
             name: "Home",
-            component: HomePage
+            component: HomePage,
+            meta: { title: 'Skills - MyApp' }
         },
         {
             path:'/addPage',
             name: "Add",
-            component: AddPage
+            component: AddPage,
+            meta: { title: 'Skills - MyApp' }
         },
 
     ]
