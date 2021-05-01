@@ -25,4 +25,12 @@ cd frontend
 npm run serve
 ```
 
+### Step 7] Now press ctrl and click on the link 
+```
+App running at:
+  - Local:   http://localhost:8080/ 
+```
+
+
+
 ### The project is running :)
