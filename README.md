@@ -13,6 +13,7 @@ cd backend
 ```
 python manage.py runserver
 ```
+> To view the django database click on the link in terminal and just add */api/movies/* to the localhost link
 
 ### Step 4] Open another terminal in the root director *vphrase* 
 > Do not close the backend terminal
