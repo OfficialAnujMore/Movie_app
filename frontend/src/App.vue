@@ -1,55 +1,30 @@
 <template>
-  
-
   <div id="app">
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">Movie App</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <router-link to="">Home</router-link>
-            </li>
-          </ul>
-        </div>
+    <div class="content">
+      <div class="top-bar">
+        <Navigation />
       </div>
-    </nav>
-
-    <table class="table">
-      <thead>
-        <th>Name</th>
-        <th>Director</th>
-        <th>Genere</th>
-        <th>Rating</th>
-        <th>Release Date</th>
-      </thead>
-      <tbody>
-        <tr v-for="movie in movies" v-bind:key="movie.id">
-          <td>{{ movie.name }}</td>
-          <td>{{ movie.director }}</td>
-          <td>{{ movie.genere }}</td>
-          <td>{{ movie.rating }}</td>
-          <td>{{ movie.release_date }}</td>
-        </tr>
-      </tbody>
-    </table>
+    </div>
+    <div class="content">
+      <div class="top-bar">
+        <Home />
+      </div>
+    </div>
   </div>
 </template>
 
+
+
 <script>
+import Navigation from "./components/Navigation.vue";
+import Home from "./components/HomePage.vue";
 export default {
   name: "App",
+
+  components: {
+    Navigation,
+    Home,
+  },
 
   data() {
     return {
@@ -73,3 +48,12 @@ export default {
   /* margin-top: 60px; */
 }
 </style>
+
+
+
+
+
+
+
+
+  
