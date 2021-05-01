@@ -1,0 +1,28 @@
+.navbar {
+    background-color: #69ccec;
+}
+
+.links {
+    font-size: 25px;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    /* font-style: italic; */
+    font-variant-caps: petite-caps;
+    font-weight: 540;
+    text-decoration: none;
+    color: black;
+}
+
+.links:hover {
+    font-size: 25.5px;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    /* font-style: italic; */
+    font-variant-caps: petite-caps;
+    font-weight: 540;
+    color: black;
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-decoration: none;
+    /* background-color: #004157; */
+    background-image: linear-gradient(to left, rgba(255, 0, 0, 0), rgb(190, 216, 238));
+}

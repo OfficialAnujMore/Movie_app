@@ -1,0 +1,27 @@
+.star {
+    color: #f3d23e;
+  }
+
+#movie_name{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-variant-caps: petite-caps;
+    font-weight: 540;
+    color:black;
+    
+}
+
+#release_date{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-variant-caps: petite-caps;
+    font-weight: 200;
+    color:black;
+    
+}
+
+#movie_card{
+    background-color: #E8E8E8;
+}

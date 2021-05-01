@@ -9,7 +9,7 @@
           minlength="2"
           maxlength="100"
           name="movieName"
-          class="form-control"
+          class="form-control  field"
           id="movieName"
           aria-describedby="emailHelp"
           placeholder="Movie Name"
@@ -22,7 +22,7 @@
           type="text"
           minlength="2"
           maxlength="100"
-          class="form-control"
+          class="form-control field"
           name="directorName"
           id="directorName"
           aria-describedby="emailHelp"
@@ -36,7 +36,7 @@
           type="text"
           minlength="2"
           maxlength="100"
-          class="form-control"
+          class="form-control field"
           id="genere"
           name="genere"
           aria-describedby="emailHelp"
@@ -50,7 +50,7 @@
           type="number"
           min="1"
           max="5"
-          class="form-control"
+          class="form-control field"
           id="rating"
           name="rating"
           aria-describedby="emailHelp"
@@ -62,7 +62,7 @@
         <br />
         <input
           type="date"
-          class="form-control"
+          class="form-control field"
           id="date"
           name="date"
           aria-describedby="emailHelp"
@@ -70,7 +70,7 @@
           v-model="movie.release_date"
         />
       </div>
-      <button type="submit" class="btn btn-primary">Submit</button>
+      <button type="submit" class="btn btn-primary submitButton">Submit</button>
       <!-- @click=createMovie() -->
     </form>
   </div>
@@ -78,6 +78,9 @@
   <!-- d-flex justify-content-center" -->
 </template>
 
+<style scoped src= "../assets/css/addPage.css">
+
+</style>
 <script>
 export default {
   name: "Add",

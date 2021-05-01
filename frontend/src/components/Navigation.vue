@@ -1,7 +1,7 @@
 <template>
   <div id="navigation">
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="/">Movie App</a>
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <a class="navbar-brand links" href="/">Movie App</a>
       <button
         class="navbar-toggler"
         type="button"
@@ -19,13 +19,13 @@
         id="navbarSupportedContent"
       >
         <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
+          <li class="nav-item active links">
             <a
-              class="navbar-brand"
+              class="navbar-brand links"
               href="/addPage.vue"
               
             >
-              <router-link to="addPage">Add Movie</router-link></a
+              <router-link class="links" to="addPage"> + Add Movie </router-link></a
             >
           </li>
         </ul>
@@ -38,6 +38,8 @@
           </li> -->
 </template>
 
+<style scoped src= "../assets/css/navbar.css">
+</style>
 <script>
 export default {};
 </script>
