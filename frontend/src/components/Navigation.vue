@@ -20,14 +20,14 @@
       >
         <ul class="navbar-nav mr-auto">
           <li class="nav-item active">
-            <a class="nav-link" href="#"
-              >Home <span class="sr-only">(current)</span></a
-            >
+           
+            <router-link to="/">Home</router-link>
           </li>
           <li class="nav-item active">
-            <a class="nav-link" href="#"
+            <!-- <a class="nav-link" href="#"
               >About <span class="sr-only">(current)</span></a
-            >
+            > -->
+             <router-link to="/addPage">Add Page</router-link>
           </li>
           <li class="nav-item active">
             <a class="nav-link" href="#"

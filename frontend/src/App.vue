@@ -5,11 +5,13 @@
         <Navigation />
       </div>
     </div>
-    <div class="content">
+    <router-view/>
+    <!-- <div class="content">
       <div class="top-bar">
         <Home />
       </div>
-    </div>
+    </div> -->
+   
   </div>
 </template>
 
@@ -17,13 +19,13 @@
 
 <script>
 import Navigation from "./components/Navigation.vue";
-import Home from "./components/HomePage.vue";
+// import Home from "./components/HomePage.vue";
 export default {
   name: "App",
 
   components: {
     Navigation,
-    Home,
+    // Home,
   },
 
   data() {
