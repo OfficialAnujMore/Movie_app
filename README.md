@@ -22,7 +22,7 @@ cd frontend
 
 ### Step 6] Start the backend sever on localhost using the below command
 ```
-npm run sever
+npm run serve
 ```
 
 ### The project is running :)
