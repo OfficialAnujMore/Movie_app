@@ -1,5 +1,7 @@
 # Movie App
 
+## Go through the installation steps
+
 ### Step 1] Clone the repository 
 
 ### Step 2] Open a terminal in the root directory *vphrase* and change the directory name to backend
