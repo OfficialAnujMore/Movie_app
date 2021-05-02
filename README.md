@@ -1,5 +1,7 @@
 # Movie App
 
+![output](https://user-images.githubusercontent.com/53031645/116807048-ab9e2900-ab4e-11eb-9c4f-662bee5fe6ce.gif)
+
 
 ### Before installing make sure you have all the depenencies for *Django*
 
