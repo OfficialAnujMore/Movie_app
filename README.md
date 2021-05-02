@@ -1,5 +1,21 @@
 # Movie App
 
+
+### Before installing make sure you have all the depenencies for *Django*
+
+```
+
+pip install Django
+pip install djangorestframework
+```
+
+### Before installing make sure you have all the depenencies for *VueJs*
+
+```
+npm install -g @vue/cli
+```
+
+
 ## Go through the installation steps
 
 ### Step 1] Clone the repository 
