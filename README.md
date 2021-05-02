@@ -53,6 +53,16 @@ App running at:
   - Local:   http://localhost:8080/ 
 ```
 
+## If there is still any issue then please check the url in the following files 
+
+## App.vue
+![2](https://user-images.githubusercontent.com/53031645/116807164-3b43d780-ab4f-11eb-9d12-c006d299a2e1.PNG)
+
+## HomePage.vue
+![3](https://user-images.githubusercontent.com/53031645/116807165-3c750480-ab4f-11eb-9c07-e4717360a8d5.PNG)
+
+## AddPage.vue
+![1](https://user-images.githubusercontent.com/53031645/116807161-2cf5bb80-ab4f-11eb-84b3-1ddff228e7a5.PNG)
 
 
 ### The project is running :)
